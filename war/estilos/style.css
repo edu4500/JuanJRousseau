@@ -1,0 +1,149 @@
+.slideshow { 
+	height: 332px;
+	width: 940px;
+	margin: auto
+}
+.slideshow img { 
+	padding: 23px; 
+	border: 1px solid #ccc; 
+	background-color: #eee; 
+}
+.fright {float:right}
+.fleft {float:left}
+body {
+	margin:0;
+	padding:0;
+	background:url(/images/fondo.jpg) repeat-x left top;
+	background-size:100% 100%;
+	font-family:Arial,Helvetica,sans-serif;font-size:12px;
+	color:#787878
+}
+a:hover {}
+#wrapper {
+	width:100%;padding:0;
+	margin:0
+}
+/* Header */
+#header {
+	width:100%;
+	height:250px;
+	background:url(/images/header.jpg);
+	margin:0;
+	float:left;margin:0;
+	padding-top:30px;
+}
+#header h1
+{
+	text-align: center;
+	color:#F7E5E5;
+	font:normal 14px Georgia, "Times New Roman",Times,serif;
+	font-size:3.6em;
+	position:relative;
+	top: -60px;
+}
+#header h2
+{
+	text-align: center;
+	color:#F7E5E5;
+	font-family: "calibri", Garamond, 'Comic Sans';
+	font-size:2.0em;
+	position:relative;
+	bottom: -70px;
+}
+#header img
+{
+	margin: -70px 0px
+}
+/* Menu */
+#menu {
+	width:1000px;
+	height:40px;
+	margin:0px 200px;
+	padding:auto;
+	background:#000
+}
+#menu ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	line-height:normal
+}
+#menu li {
+	float:left
+}
+#menu a {
+	display:block;
+	width:190px;
+	height:28px;
+	background:#000;
+	padding-top:8px;
+	border-right:1px solid #fff;
+	text-decoration:none;text-align:center;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:13px;font-weight:bold;color:#fff;
+	border:none}
+#menu a:hover, #menu .current_page_item a {
+	background:#BC1B32;
+	text-decoration:none}
+#menu .current_page_item a {
+	background:#BC1B32;
+	padding-left:0}
+/* Page */
+#page {
+	width:670px;
+	height:750px;
+	margin:-87px 450px;
+	padding:0;
+	text-align : justify;
+	font-size:20px
+}
+#page h1{
+	text-align : center;
+	font-size:40px
+}
+#menu_s{
+	width:300px;
+	height:100px;
+	margin:0px,200px;
+	padding:;
+}
+#menu_s li {
+	float:left
+}
+#menu_s ul{
+	margin: 0px 200px;
+	padding:0;
+	list-style:none;
+	line-height:normal
+}
+#menu_s a {
+	display:block;
+	width:190px;
+	height:28px;
+	background:#000;
+	padding-top:8px;
+	border-right:1px solid #fff;
+	text-decoration:none;text-align:center;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:13px;font-weight:bold;color:#fff;
+	border:none}
+#menu_s a:hover {
+	background:#BC1B32;
+	text-decoration:none}
+/* Footer */
+#footer {
+	height:50px;
+	margin:0 auto;
+	width:940px;
+	padding:0 0 15px 0;
+	background:black;
+	border-top:1px solid #DEDEDE;
+	font-family:Arial,Helvetica,sans-serif}
+#footer p {
+	margin:0 11px;
+	padding-top:20px;
+	line-height:normal;
+	font-size:9px;
+	text-align:center;
+	color:white
+}

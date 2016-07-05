@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>JuanJRousseau</servlet-name>
+		<servlet-class>api.JuanJRousseauServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>JuanJRousseau</servlet-name>
+		<url-pattern>/prueba2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Datos Admin</servlet-name>
+		<servlet-class>api.controlador.servlets.DatoAdminServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Datos Admin</servlet-name>
+		<url-pattern>/AdminDatos</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>Contactenos</servlet-name>
+		<jsp-file>/contactenos.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Contactenos</servlet-name>
+		<url-pattern>/contactenos</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Mision y Vision</servlet-name>
+		<jsp-file>/misionyvision.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Mision y Vision</servlet-name>
+		<url-pattern>/institución</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Login</servlet-name>
+		<servlet-class>api.controlador.servlets.Login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Login</servlet-name>
+		<url-pattern>/login/*</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>Admin</servlet-name>
+		<servlet-class>api.controlador.servlets.AdminServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Admin</servlet-name>
+		<url-pattern>/admin/*</url-pattern>
+	</servlet-mapping>
+		
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

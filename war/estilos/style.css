@@ -43,7 +43,7 @@ body{
 #contenedor{
 	background: #dddddd;
 	width: 950px;
-	height: 1000px;
+	height: 100%;
 	margin-right: auto;
 	margin-left: auto;
 }

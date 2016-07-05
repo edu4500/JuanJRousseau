@@ -10,6 +10,7 @@ public class htmls {
 	public static final String LOGIN = "/login";
 	public static final String UNLOGIN = "/logn/out";
 	public static final String REGISTRER = "/login/registrar";
+	public static final String CALENDARIO = "/calendario";
 	public static final String ADMIN_HOME_PAGE = "/admin/adminHomePage";
 	public static final String ADMIN_ADMI_CURSO = "/admin/adminCursos";
 	public static final String ADMIN_ADMI_USUARIOS = "/admin/adminUsuarios";
@@ -88,7 +89,7 @@ public class htmls {
 			+"		<li><a href=\"#\">Inicial</a></li>\n"
 			+"		<li><a href=\"#\">Primaria</a></li>\n"
 			+"		<li><a href=\"#\">Secundaria</a></li>\n"
-			+"		<li><a href=\"#\">Calendario Escolar</a></li>\n"
+			+"		<li><a href=\""+CALENDARIO+"\">Calendario Escolar</a></li>\n"
 			+"	</ul>\n"
 			+"</div>\n";
 	public static final String FOOTER = ""

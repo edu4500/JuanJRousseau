@@ -32,6 +32,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	</servlet-mapping>
 
 	<servlet>
+		<servlet-name>Calendario</servlet-name>
+		<jsp-file>/calendario.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Calendario</servlet-name>
+		<url-pattern>/calendario</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
 		<servlet-name>Mision y Vision</servlet-name>
 		<jsp-file>/misionyvision.jsp</jsp-file>
 	</servlet>

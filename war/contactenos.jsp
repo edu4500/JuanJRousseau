@@ -12,6 +12,7 @@
 </head>
 <body>
 	<%=htmls.PORTADA%>
+	<div id="contenedor">
 	<%=htmls.MENU%>
 	<div>
 		<%=htmls.MENU_S%>
@@ -27,6 +28,7 @@
 				<input type="submit" value="enviar">
 			</form>		
 		</div>
+	</div>
 	</div>
 	<%=htmls.FOOTER%>
 </body>

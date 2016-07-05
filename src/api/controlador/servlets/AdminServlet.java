@@ -77,6 +77,24 @@ public class AdminServlet extends HttpServlet {
 			else
 				resp.sendRedirect(htmls.PAGE_DENNY_JSP);
 		}
+		else if(action.equals(htmls.ADMIN_ADMI_USUARIOS)){
+			if(admin!=null){
+				resp.setContentType("text/html; charset=utf-8");
+				PrintWriter out = resp.getWriter();
+				out.println(""
+						+htmls.HEAD_ADMIN
+						+htmls.BODY
+						+htmls.MENU_ADMIN
+						+htmls.TABLE
+						+"aquiiiiiii"
+						+htmls.LTABLE
+						+"</div>"
+        				+htmls.LBODY
+        		);
+			}
+			else
+				resp.sendRedirect(htmls.PAGE_DENNY_JSP);
+		}
 		else
 			resp.sendRedirect(htmls.PAGE_NO_FOUND_JSP);
 	}

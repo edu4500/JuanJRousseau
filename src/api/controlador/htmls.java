@@ -12,7 +12,7 @@ public class htmls {
 	public static final String REGISTRER = "/login/registrar";
 	public static final String ADMIN_HOME_PAGE = "/admin/adminHomePage";
 	public static final String ADMIN_ADMI_CURSO = "/admin/adminCursos";
-	
+	public static final String ADMIN_ADMI_USUARIOS = "/admin/adminUsuarios";
 	//imagenes direcciones
 	public static final String LOGO_IMG = "/images/logo.jpg";
 	public static final String IMG_1 = "/images/imgc1.jpg";
@@ -78,9 +78,9 @@ public class htmls {
 			+"</div>\n";
 	public static final String SLIDESHOW = ""
 			+"<div class=\"slideshow\">\n"
-			+"	<img src="+IMG_1+" width=\"910\" height=\"300\">\n"
-			+"	<img src="+IMG_2+" width=\"910\" height=\"300\">\n"
-			+"	<img src="+IMG_3+" width=\"910\" height=\"300\">\n"
+			+"	<img src="+IMG_1+" width=\"950\" height=\"330\">\n"
+			+"	<img src="+IMG_2+" width=\"950\" height=\"330\">\n"
+			+"	<img src="+IMG_3+" width=\"950\" height=\"330\">\n"
 			+"</div>\n";
 	public static final String MENU_S = ""
 			+"<div id=\"menu_s\">\n"
@@ -102,7 +102,7 @@ public class htmls {
 			+"	<ul>\n"
 			+"		<li><a href="+ADMIN_HOME_PAGE+">CRUD generar id</a></li>\n"
 			+"		<li><a href="+ADMIN_ADMI_CURSO+">CRUD cursos</a></li>\n"
-			+"		<li><a>CRUD usuarios</a></li>\n"
+			+"		<li><a href="+ADMIN_ADMI_USUARIOS+">CRUD usuarios</a></li>\n"
 			+"		<li><a>Matricular alumnos</a></li>\n"
 			+"		<li><a>Asignar curcos profesor</a></li>\n"
 			+"		<li><a>CRUD eventos calendario</a></li>\n"

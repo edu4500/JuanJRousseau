@@ -12,11 +12,12 @@
 </head>
 <body>
 	<%=htmls.PORTADA%>
+	<div id="contenedor">
 	<%=htmls.MENU%>
 	<div>
 		<%=htmls.MENU_S%>
 		<div id="page">
-		    <a href="/login/registro">Registrate</a>
+		    <a href=<%=htmls.REGISTRER %>>Registrate</a>
 			<form action=login method="post">
 			<input type="text" name="user"/>
 			<input type="password" name="password"/>
@@ -24,6 +25,7 @@
 			
 			</form>
 		</div>
+	</div>
 	</div>
 	<%=htmls.FOOTER%>
 </body>

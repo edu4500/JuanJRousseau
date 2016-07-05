@@ -10,6 +10,7 @@
 </head>
 <body>
 	<%=htmls.PORTADA%>
+	<div id="contenedor">
 	<%=htmls.MENU%>
 	<div>
 		<%=htmls.MENU_S%>
@@ -19,6 +20,7 @@
 			<h1>Visión</h1>
 			<p>Nuestra visión es consolidarnos como una institución educativa que contribuye en la formación de personas íntegras, capaces de lograr cambios positivos en la sociedad y su entorno ambiental considerando a la educación como un acto permanente en la vida.</p>	
 		</div>
+	</div>
 	</div>
 	<%=htmls.FOOTER%>
 </body>
